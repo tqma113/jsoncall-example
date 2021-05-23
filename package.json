@@ -1,0 +1,25 @@
+{
+  "private": true,
+  "repository": "https://github.com/tqma113/jsoncall-example.git",
+  "author": "Ma Tianqi <mtq1997@126.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jc-builder": "^0.0.3",
+    "jc-client": "^0.0.3",
+    "jc-codegen": "^0.0.4",
+    "jc-lang": "^0.0.3",
+    "jc-schema": "^0.0.3",
+    "jc-serialization": "^0.0.3",
+    "jc-server": "^0.0.3"
+  },
+  "scripts": {
+    "client": "ts-node ./client/index.ts",
+    "sync": "ts-node ./client/sync.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.0",
+    "ts-node": "^9.1.1",
+    "tslib": "^2.2.0",
+    "typescript": "^4.2.4"
+  }
+}
