@@ -4,13 +4,13 @@
   "author": "Ma Tianqi <mtq1997@126.com>",
   "license": "MIT",
   "dependencies": {
-    "jc-builder": "^0.0.3",
-    "jc-client": "^0.0.3",
-    "jc-codegen": "^0.0.4",
-    "jc-lang": "^0.0.3",
-    "jc-schema": "^0.0.3",
-    "jc-serialization": "^0.0.3",
-    "jc-server": "^0.0.3"
+    "jc-builder": "^0.0.5",
+    "jc-client": "^0.0.5",
+    "jc-codegen": "^0.0.5",
+    "jc-lang": "^0.0.5",
+    "jc-schema": "^0.0.5",
+    "jc-serialization": "^0.0.5",
+    "jc-server": "^0.0.5"
   },
   "scripts": {
     "client": "ts-node ./client/index.ts",

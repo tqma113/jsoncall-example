@@ -37,46 +37,46 @@ diff@^4.0.1:
   resolved "https://registry.npmjs.org/diff/-/diff-4.0.2.tgz#60f3aecb89d5fae520c11aa19efc2bb982aade7d"
   integrity sha512-58lmxKSA4BNyLz+HHMUzlOEpg09FV+ev6ZMe3vJihgdxzgcwZ8VoEEPmALCZG9LmqfVoNMMKpttIYTVG6uDY7A==
 
-jc-builder@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/jc-builder/-/jc-builder-0.0.3.tgz#19c0c7589737af6aab3856fd60ae40af010c6818"
-  integrity sha512-SY6eRzaigvRuNT9zis8uaRyDCODwe4FitQUxH5IoJHxumKP6nm8AND1oXHHnrD5jXkqLlfdS+FSMNRG2a5MOQw==
+jc-builder@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-builder/-/jc-builder-0.0.5.tgz#8aa3597e8ad2007ba033e391281fcb56ab05841e"
+  integrity sha512-OzrNj5Ljf/b/lTkPfRCtfZfNkT358E9ABtBTdBwQE35KsjemvQ4dRpd8QZt8TTCGnnKg3GhhTumq/XpJPD5ElQ==
 
-jc-client@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/jc-client/-/jc-client-0.0.3.tgz#af8972381c98fd049c366302872a5d6b45c9ce4b"
-  integrity sha512-09Dtyyuc7HBZkBZxQmetTPYekRJJxnqvZjErONfbfkB/bXzz1QOf0XYfgnaZq948fStKexmGorSOS6us+9r/Jg==
+jc-client@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-client/-/jc-client-0.0.5.tgz#4c4c89768b60e5047945ace9837a67dd7ba25023"
+  integrity sha512-6B4HwAtpokThCJ992G9SF1gFi38I1BkAOPd3NDu51OSbIegUzpZ8cdvyaVJpGf3GIH/x4wTWwOwoJCl1OudQ4Q==
   dependencies:
     dataloader "^2.0.0"
     setimmediate "^1.0.5"
 
-jc-codegen@^0.0.4:
-  version "0.0.4"
-  resolved "https://registry.npmjs.org/jc-codegen/-/jc-codegen-0.0.4.tgz#541630338247be92f0de117746aa5aec3396a0fa"
-  integrity sha512-eqBm2IukrSwrL8Ix+4hYKVnFI+BwgXzD7z/1mZwtVGldkdRrx2dmfiD/HHwwdBxU34Mqv25BtiO5oz6N8gxGJw==
+jc-codegen@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-codegen/-/jc-codegen-0.0.5.tgz#dbf42f1ab2e44074865adc83e4c9af8125d37164"
+  integrity sha512-SFqsDK3GDQJCQgVZza3OQyVTG90QOpaFbVeEI+OGNy6p5P7K89rIgNa51aWGnXaXOY1tWooF8Lzx2iCtW5+QVw==
   dependencies:
     "@types/prettier" "^2.2.3"
     prettier "^2.2.1"
 
-jc-lang@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/jc-lang/-/jc-lang-0.0.3.tgz#73e4c5781817952c4d0a9a17b837b9c032159229"
-  integrity sha512-7Fyd3hnHIlMU5yBtr9QynJ3rhLKWI1bLM/nzUUaQWRxqXWgpGuInj+X3zEAhRlHi2XPim013iWAgFxGIk3vIrg==
+jc-lang@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-lang/-/jc-lang-0.0.5.tgz#c19df18aca8e873d2e5ef6bec895cab4e36f5f16"
+  integrity sha512-8U8QE2JbZeRj2MQk4GPYWPBrU2TYrULOpQWDXdB73lcnCZzALfnooTJv4hfKa0yA91Nl1i+0OKGreYRdZTAITg==
 
-jc-schema@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/jc-schema/-/jc-schema-0.0.3.tgz#05dbfbeafeb5037746877efc41ebf08be3c1f8b6"
-  integrity sha512-BDuBu1RWD/lkPzihNYiWIh1zMssrWCxhG6mY+QyOHezWGd+fk3Pf4YjFd9QxftV6HWH4uDME5N+TtmQr/2+GtQ==
+jc-schema@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-schema/-/jc-schema-0.0.5.tgz#02ef7f24e4dd7c4f2351160bd9b2341561e98002"
+  integrity sha512-u2/I7Z3ojvjmey7rhbU1MeQKfgKSA+CGJ85j3qAXg7fX5CDv7RonQIelcVLqOXAYl1i9MJfMJArM3yrL9dq0MQ==
 
-jc-serialization@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/jc-serialization/-/jc-serialization-0.0.3.tgz#b705db7d058c68abab75485477a51a162ae66bfa"
-  integrity sha512-bImEuhMGoMDBNlSyCab/8hg1vt5yhc+bN4MVo/EHk9eEMFMaeZXDqs9ikvjNm6nfcluB8w7VZpkHrF6W9qdhsw==
+jc-serialization@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-serialization/-/jc-serialization-0.0.5.tgz#0e4725db4428785ea996d72db247e430866a41ea"
+  integrity sha512-5kWvswq5lt4nriIrWb9zBG6sqyKIkOt2Jw/s68SZvhr+HqO/EnjIJYZ+QPA2BtxlukRticsgVdavCltL/D1bkA==
 
-jc-server@^0.0.3:
-  version "0.0.3"
-  resolved "https://registry.npmjs.org/jc-server/-/jc-server-0.0.3.tgz#77c58910ee2407f72f1e7530cce09968b88d21b3"
-  integrity sha512-t4WbtmEYY4MdpYzexdZGR7+SD8ux6h/UxaWNYN3Vg04sjhzIemaXa9LCJr6Ay/t136Qjd9Gicl0qw2or+Vdq0w==
+jc-server@^0.0.5:
+  version "0.0.5"
+  resolved "https://registry.npmjs.org/jc-server/-/jc-server-0.0.5.tgz#413e67bfb6a10ced2c187ebadd687451dbadd1ef"
+  integrity sha512-m5NDR90EJJC384BKETda+jn1USLqPKKLgh82xl6be7yI8CY6DyrzSYeLCQY7qQfPfNGX4+hcAfEvCZg/u+9JQg==
 
 make-error@^1.1.1:
   version "1.3.6"
