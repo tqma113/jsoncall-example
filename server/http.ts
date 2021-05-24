@@ -7,7 +7,6 @@ const app = express()
 app.use(json())
 
 app.use('/api', (req, res) => {
-  console.log(req.body)
   res.send(call(req.body.input))
 })
 
