@@ -49,7 +49,7 @@ const schema = createBuilderSchema({
   SuccessOutput,
   FailedOutput,
   Output
-}, {
+}, {}, {
   getTodos
 })
 
