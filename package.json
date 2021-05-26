@@ -6,16 +6,18 @@
   "dependencies": {
     "@types/express": "^4.17.11",
     "@types/node-fetch": "^2.5.10",
+    "@types/prettier": "^2.2.3",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
     "jc-builder": "^0.0.6",
     "jc-client": "*",
-    "jc-codegen": "0.0.8",
+    "jc-codegen": "^0.0.9",
     "jc-lang": "*",
     "jc-schema": "*",
     "jc-serialization": "*",
     "jc-server": "*",
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.1",
+    "prettier": "^2.3.0"
   },
   "scripts": {
     "client": "ts-node ./client/index.ts",

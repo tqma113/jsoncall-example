@@ -330,40 +330,37 @@ jc-builder@^0.0.6:
   integrity sha512-PaWTefLvAx55y3Ez4xOcYKUkV0p9bwCFehe7uo9D+zAV6fLojzdOSs3ZyjnusUds3Fdgpvqcn8qMwcqCvU33jQ==
 
 jc-client@*:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/jc-client/-/jc-client-0.0.8.tgz#aa08de318281c1e6f460d708b14488ef261ecda6"
-  integrity sha512-MAY/dNeVEf/+llc71BwdzJd6Lnl4yPF/Ktdv4fevvGNVWGwenS87TaaJIedJOq1NHlsE+lDnKGu09oZ06yPQ9w==
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/jc-client/-/jc-client-0.0.9.tgz#de5fac14433dbfdca15bdf86b7334a17737a11b0"
+  integrity sha512-oiwn47QXcxlhz7ZfeUrwbNf/LtyDfBE6Stw8xlVciWZQGlmgCsSmAYRFH+rI5Ur8V69Og05FZ9WjaZGGg34Mbw==
   dependencies:
     dataloader "^2.0.0"
     setimmediate "^1.0.5"
 
-jc-codegen@0.0.8:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/jc-codegen/-/jc-codegen-0.0.8.tgz#685e8cd82d287b6639af668f72d6954f698f215e"
-  integrity sha512-yLtOmcv1xwnMU9o/utz/Nf21bC+kfaZaKKTDKl7EKqgUP47bprjUsw8joUO/n33jL1RdVlxNYzfjcRSLhQkHcg==
-  dependencies:
-    "@types/prettier" "^2.2.3"
-    prettier "^2.2.1"
+jc-codegen@^0.0.9:
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/jc-codegen/-/jc-codegen-0.0.9.tgz#1109aabf69d29f76ced07f75b3a01082a04fb155"
+  integrity sha512-8rtuKm7pRv5Xs5ngOO9Co9TzdxLhzZ25m+Ahu8en0z9bhuPlcsknik5AIrK4fDkxBL5vzHxWa4V5eabtVDcurg==
 
 jc-lang@*:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/jc-lang/-/jc-lang-0.0.8.tgz#b91be5bb5b7763bfdbc5ff4885c7cd7fba2eece2"
-  integrity sha512-VEk6jHwA24Gw9izVX8nWT+ibn5FD/ezmwLa8Ev1gFHdm5bhwgXwRUeF2r+Z9AvgYlDXWvPdndGuVKQB8JFMGhA==
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/jc-lang/-/jc-lang-0.0.9.tgz#e8862349fbd674ac722b2b10d6500602b9b96df4"
+  integrity sha512-dB50lmLxTOdaQm5H0DMcb5d5PEEcDnhP7V3gaSOvBvE3A0ipXMHhKHSsrWtES5tDy/q75zxt5KslZUoXu8ud3Q==
 
 jc-schema@*:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/jc-schema/-/jc-schema-0.0.8.tgz#009a104f2937cdc2d1f42acd741560db66083227"
-  integrity sha512-ZADLGzw72YhBYBSGyI3SF6jTJxCzncxBCk3ME81y4QV3jOIcP1hbBBLOHKiPDQISvTspT3uflyvxGOPll2/eFw==
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/jc-schema/-/jc-schema-0.0.9.tgz#372be80e2e343bdccb40ca265238447bbd78379c"
+  integrity sha512-bm38H18DH+7e9mPVdEMkxtoAD3zi2lvDLVRJ6hp3iqIXWlV4Ta6yEfLvDVlV+g7dwOe7/j7Tp7g8tJJ5UKVrPQ==
 
 jc-serialization@*:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/jc-serialization/-/jc-serialization-0.0.8.tgz#a4e3d662b65317ec62f28999565ced1f6ef22430"
-  integrity sha512-ia6KNKLuJeje2GR9hDj07feUoIdspMXFBZO594SuCI5KPD0orU+Bq0WTPA60zNKNoqEezYM08yS8GlE+edv2tQ==
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/jc-serialization/-/jc-serialization-0.0.9.tgz#39369eaedc32d364f1c6fd83dd9073005a4b58af"
+  integrity sha512-YdW1S6kHNqGINrdU8MmbCUJh8st+ZIDNDBOwAcNfUj0DQPCy821CTdGRWtDjDxa06VYYc5vGls+dJ7OR9bUeNQ==
 
 jc-server@*:
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/jc-server/-/jc-server-0.0.8.tgz#575d7c0ca9a01c57e113dd4f585c0c268b24dc2b"
-  integrity sha512-nzNIQtghs3aaKJhoY3P8Xgpb6MHLDkiNi4aADV3pULANHlmBQMo0DNMhVGhQBrs4ZoLeuT/izT37hdwwIQZpaA==
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/jc-server/-/jc-server-0.0.9.tgz#f579a947e6c1a8076129fafc4df3768e66bf1ab6"
+  integrity sha512-o5mvFM8DBG9rUg9scy0IWDf25gwe0F+zMztNZCyLz2ce5t6AVWgClT5G4VbgwPDEx6aXS9lXU9jx+jRgaZqShw==
 
 make-error@^1.1.1:
   version "1.3.6"
@@ -439,7 +436,7 @@ path-to-regexp@0.1.7:
   resolved "https://registry.npmjs.org/path-to-regexp/-/path-to-regexp-0.1.7.tgz#df604178005f522f15eb4490e7247a1bfaa67f8c"
   integrity sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
 
-prettier@^2.2.1:
+prettier@^2.3.0:
   version "2.3.0"
   resolved "https://registry.npmjs.org/prettier/-/prettier-2.3.0.tgz#b6a5bf1284026ae640f17f7ff5658a7567fc0d18"
   integrity sha512-kXtO4s0Lz/DW/IJ9QdWhAf7/NmPWQXkFr/r/WkR3vyI+0v8amTDxiaQSLzs8NBlytfLWX/7uQUMIW677yLKl4w==
