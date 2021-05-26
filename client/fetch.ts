@@ -8,7 +8,7 @@ const call = async (input: string) => {
     headers: {
       'Content-Type': 'application/json',
     },
-  }).then(res => {
+  }).then((res) => {
     return res.text()
   })
 }

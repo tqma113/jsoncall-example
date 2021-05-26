@@ -1,57 +1,53 @@
-import { ObjectType, StringType, NumberType, Literal, ListType, Union, createJSONCallType, ToType, createBuilderSchema } from 'jc-builder'
+import {
+  ObjectType,
+  StringType,
+  NumberType,
+  Literal,
+  ListType,
+  Union,
+  createJSONCallType,
+  ToType,
+  createBuilderSchema,
+} from 'jc-builder'
 import { createService } from 'jc-server'
 
 const Input = ObjectType({
-  id: StringType
+  id: StringType,
 })
 
 const Todo = ObjectType({
   content: StringType,
-  createTime: NumberType
+  createTime: NumberType,
 })
 type Todo = ToType<typeof Todo>
 
 const SuccessOutput = ObjectType({
   type: Literal('SuccessOutput'),
-  todos: ListType(Todo)
+  todos: ListType(Todo),
 })
 
 const FailedOutput = ObjectType({
   type: Literal('FailedOutput'),
-  message: StringType
+  message: StringType,
 })
 
 const Output = Union(SuccessOutput, FailedOutput)
 
 const getTodos = createJSONCallType('getTodos', Input, Output)
 
-const module = {
-  id: 'todo',
-  types: {
+const schema = createBuilderSchema(
+  {
     Input,
     Todo,
     SuccessOutput,
     FailedOutput,
-    Output
+    Output,
   },
-  links: [],
-  derives: {},
-  exports: {
-  },
-  calls: {
-    getTodos
+  {},
+  {
+    getTodos,
   }
-}
-
-const schema = createBuilderSchema({
-  Input,
-  Todo,
-  SuccessOutput,
-  FailedOutput,
-  Output
-}, {}, {
-  getTodos
-})
+)
 
 const service = createService(schema, JSON.stringify, JSON.parse)
 
@@ -69,7 +65,7 @@ export const call = service({
         message: 'unknown id',
       }
     }
-  }
+  },
 })
 
 const mockData: Record<string, Todo[]> = {

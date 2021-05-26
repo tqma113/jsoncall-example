@@ -20,6 +20,7 @@
     "prettier": "^2.3.0"
   },
   "scripts": {
+    "format": "prettier --write .",
     "client": "ts-node ./client/index.ts",
     "sync": "ts-node ./client/sync.ts",
     "server": "ts-node ./server/http.ts",
